@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import {FaBookOpen } from 'react-icons/fa';
 import { FaDollarSign } from 'react-icons/fa';
 import Calculation from './Calculation';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Card = () => {
@@ -18,7 +20,21 @@ const Card = () => {
 
 
     const handleSelectButton = (cards) =>{
-        setSelectCard([...selectCard, cards ])
+        const isExist = selectCard.find((item) => item.id === cards.id);
+        let count = cards.credit;
+        if(isExist){
+            toast('This course already registered.', {
+                position:'top-center'
+            })
+        }
+        else{
+            selectCard.forEach((item) => {
+            count = count + item.credit;
+            })
+            
+            console.log(count);
+            setSelectCard([...selectCard, cards ])
+        }
     }
 
 
@@ -51,12 +67,13 @@ const Card = () => {
                         </div>
                     </div>
                     <button onClick={()=>{handleSelectButton(cards)}} className="bg-blue-500 text-white font-semibold w-full rounded-lg py-1 mt-1">Select</button>
+                <ToastContainer/>
                 </div>
                     ))
                 }
             </div>
 
-            <div className=" bg-gray-300 rounded-lg p-2 ">
+            <div>
           <Calculation selectCard={selectCard}></Calculation>
         </div>
         </div>

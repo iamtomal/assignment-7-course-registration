@@ -1,92 +1,92 @@
 [
     {
   
-      "id": "1",
+      "id": 1,
       "cover_image": "https://i.ibb.co/P4cK0Z0/Introduction-to-Computer-Scienc.jpg",
       "course_title": "Introduction to Computer Science",
       "course_details": "Learn the fundamentals of computer science, including algorithms and data structures.",
-      "price": "49.99",
-      "credit": "3",
+      "price": 49.99,
+      "credit": 3,
       "select_button": "Register Now"
     },
     {
   
-      "id": "2",
+      "id": 2,
       "cover_image": "https://i.ibb.co/8dZfgr4/Web-Development-Basics.jpg",
       "course_title": "Web Development Basics",
       "course_details": "Get started with web development and learn HTML, CSS, and JavaScript.",
-      "price": "39.99",
-      "credit": "5",
+      "price": 39.99,
+      "credit": 5,
       "select_button": "Enroll Today"
     },
     {
   
-      "id": "3",
+      "id": 3,
       "cover_image": "https://i.ibb.co/Bjt5Hqg/Database-Management-Systems.jpg",
       "course_title": "Database Management Systems",
       "course_details": "Explore the world of database systems and SQL programming.",
-      "price": "59.99",
-      "credit": "3",
+      "price": 59.99,
+      "credit": 3,
       "select_button": "Join Course"
     },
     {
   
-      "id": "4",
+      "id": 4,
       "cover_image": "https://i.ibb.co/q9Z77VJ/Machine-Learning-Fundamentals.jpg",
       "course_title": "Machine Learning Fundamentals",
       "course_details": "Discover the basics of machine learning and predictive modeling.",
-      "price": "69.99",
-      "credit": "4",
+      "price": 69.99,
+      "credit": 4,
       "select_button": "Enroll Now"
     },
     {
   
-      "id": "5",
+      "id": 5,
       "cover_image": "https://i.ibb.co/30vxL8J/Cybersecurity-Essentials.jpg",
       "course_title": "Cybersecurity Essentials",
       "course_details": "Learn about cybersecurity threats, prevention, and ethical hacking.",
-      "price": "79.99",
-      "credit": "3",
+      "price": 79.99,
+      "credit": 3,
       "select_button": "Register Here"
     },
     {
   
-      "id": "6",
+      "id": 6,
       "cover_image": "https://i.ibb.co/cgnP2Bv/Software-Engineering-Principles.jpg",
       "course_title": "Software Engineering Principles",
       "course_details": "Master software development methodologies and best practices.",
-      "price": "59.99",
-      "credit": "3",
+      "price": 59.99,
+      "credit": 3,
       "select_button": "Enroll Today"
     },
     {
   
-      "id": "7",
+      "id": 7,
       "cover_image": "https://i.ibb.co/F8V4Ldb/Data-Science-for-Beginners.jpg",
       "course_title": "Data Science for Beginners",
       "course_details": "Start your journey into data science with Python and data analysis.",
-      "price": "49.99",
-      "credit": "5",
+      "price": 49.99,
+      "credit": 5,
       "select_button": "Join Course"
     },
     {
   
-      "id": "8",
+      "id": 8,
       "cover_image": "https://i.ibb.co/p1vddk6/Artificial-Intelligence-Applications.jpg",
       "course_title": "Artificial Intelligence Applications",
       "course_details": "Explore AI applications in various domains, from healthcare to finance.",
-      "price": "79.99",
-      "credit": "4",
+      "price": 79.99,
+      "credit": 4,
       "select_button": "Enroll Now"
     },
     {
   
-      "id": "9",
+      "id": 9,
       "cover_image": "https://i.ibb.co/ZS1dHt8/Computer-Networks-and-Security.jpg",
       "course_title": "Computer Networks and Security",
       "course_details": "Dive into the world of computer networks and network security.",
-      "price": "69.99",
-      "credit": "3",
+      "price": 69.99,
+      "credit": 3,
       "select_button": "Register Here"
     }
   ]
