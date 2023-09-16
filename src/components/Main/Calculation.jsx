@@ -1,9 +1,22 @@
 
 
-const Calculation = () => {
+const Calculation = ({selectCard}) => {
+    
     return (
         <div>
-            <h3>Its me</h3>
+            <p>My name is tomal</p>
+            {
+                <div>
+                <hr></hr>
+                <p className="text-lg font-bold pt-2 mb-4">Course Name</p>
+                    
+                            {selectCard.map((cards, index)=>(
+                                <p className="text-slate-500 text-sm" key={cards.id}>{index+1}. {cards.course_title}</p>    
+                                ))}
+                    
+                </div>
+            }
+
         </div>
     );
 };
