@@ -51,8 +51,8 @@ const Card = () => {
 
 
     return (
-        <div className='flex gap-4 justify-around m-8'>
-            <div className='grid grid-cols-3 gap-6'>
+        <div className='lg:flex lg:gap-4 justify-around m-8'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
                 {
                     allCards.map((cards) =>(
 
