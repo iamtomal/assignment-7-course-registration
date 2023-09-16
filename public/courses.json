@@ -6,7 +6,7 @@
       "course_title": "Introduction to Computer Science",
       "course_details": "Learn the fundamentals of computer science, including algorithms and data structures.",
       "price": 49.99,
-      "credit": 3,
+      "credit": 7,
       "select_button": "Register Now"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
   
-      "id": 3,
+      "id": 9,
       "cover_image": "https://i.ibb.co/Bjt5Hqg/Database-Management-Systems.jpg",
       "course_title": "Database Management Systems",
       "course_details": "Explore the world of database systems and SQL programming.",

@@ -10,6 +10,8 @@ const Card = () => {
 
     const [allCards, setAllCards] = useState([]);
     const [selectCard, setSelectCard] = useState([])
+    const [remain, setRemain] = useState(0);
+    const [totalCredit, setTotalCredit] = useState(0);
 
 
     useEffect(() =>{
@@ -32,8 +34,17 @@ const Card = () => {
             count = count + item.credit;
             })
             
-            console.log(count);
+            const totalRemaining = 20 - count;
+            if (count >= 20){
+                toast('You cannot take more than 20 credits.', {
+                    position:'top-center'
+                })
+            }
+            else{
+            setRemain(totalRemaining);
+            setTotalCredit(count)
             setSelectCard([...selectCard, cards ])
+            }
         }
     }
 
@@ -74,7 +85,7 @@ const Card = () => {
             </div>
 
             <div>
-          <Calculation selectCard={selectCard}></Calculation>
+          <Calculation selectCard={selectCard} remain={remain} totalCredit={totalCredit}></Calculation>
         </div>
         </div>
     );
